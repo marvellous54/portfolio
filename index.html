@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Menu Bar</title>
+</head>
+<body>
+
+   <header>
+    <!-- MENU -------------------- BAR -->
+       <div class="container" onclick="document.getElementById('menu').style.display = 'flex';">
+           <div class="box-1"></div>
+           <div class="box-2"></div>
+           <div class="box-3"></div>
+       </div>
+
+       <div class="flex">
+           <div class="mobile-touch" onclick="document.getElementById('menu').style.display = 'none';"></div>
+       </div>
+
+       <div class="content" id="menu">
+           <!-- <div class="out" onclick="document.getElementById('menu').style.display = 'none';"></div> -->
+           <h3 class="logo">Logo</h3>
+           <div class="links">
+               <p><a href="">Home</a></p>
+               <p><a href="">About Me</a></p>
+               <p><a href="">Contact Me</a></p>
+               <p><a href="">Projects</a></p>
+           </div>
+       </div>
+    <!--xxxxxx ------ xxxxxxxxxxx ------ xxxxxx-->
+
+       <div class="body">
+           <div class="main-body">
+            <!-- Letters -->
+               <div class="img"></div>
+               <h3>Michael Ajayi</h3>
+               <p>Web Developer</p>
+               <button>Hire Me</button>
+
+               <!-- Animation -->
+               <div class="animate-space">
+                   <div class="ball" onclick="document.getElementById('menu').style.display = 'none';"></div>
+               </div>
+           </div>
+       </div>
+
+    </header>
+
+</body>
+</html>
